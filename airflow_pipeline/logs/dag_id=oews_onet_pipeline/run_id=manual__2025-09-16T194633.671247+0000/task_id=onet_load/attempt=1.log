@@ -1,0 +1,11 @@
+{"timestamp":"2025-09-16T19:47:04.471702","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-16T19:47:04.473877","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/oews_onet_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-16T19:47:05.265965Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T19:47:05.267405Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T19:47:05.268311Z","level":"info","event":"Current task name:onet_load","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T19:47:05.269000Z","level":"info","event":"Dag name:oews_onet_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T19:47:05.807652Z","level":"info","event":"Error saving to database: 'Connection' object has no attribute 'commit'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T19:47:05.810247","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-16T19:47:05.855008Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T19:47:05.856127Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T19:47:05.856891Z","level":"info","event":"Task operator:<Task(PythonOperator): onet_load>","chan":"stdout","logger":"task"}

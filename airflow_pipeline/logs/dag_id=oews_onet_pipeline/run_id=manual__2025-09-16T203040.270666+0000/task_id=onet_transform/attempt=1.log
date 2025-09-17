@@ -1,0 +1,10 @@
+{"timestamp":"2025-09-16T20:31:10.558977","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-16T20:31:10.560277","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/oews_onet_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-16T20:31:10.972011Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T20:31:10.975990Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T20:31:10.977568Z","level":"info","event":"Current task name:onet_transform","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T20:31:10.978405Z","level":"info","event":"Dag name:oews_onet_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T20:31:11.738493","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-16T20:31:11.784943Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T20:31:11.785903Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T20:31:11.786562Z","level":"info","event":"Task operator:<Task(PythonOperator): onet_transform>","chan":"stdout","logger":"task"}

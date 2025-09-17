@@ -1,0 +1,15 @@
+{"timestamp":"2025-09-16T22:12:32.780614","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-16T22:12:32.784632","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/oews_onet_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-16T22:12:33.336304Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:12:33.337386Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:12:33.337883Z","level":"info","event":"Current task name:onet_load","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:12:33.338261Z","level":"info","event":"Dag name:oews_onet_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:12:33.845664Z","level":"info","event":"Creating tables","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:12:34.040697Z","level":"info","event":"Table onet_skills created or already exists.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:12:34.041581Z","level":"info","event":"Tables created successfully.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:12:42.462623Z","level":"info","event":"Successfully saved 62580 records to onet_skills.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:12:42.463491Z","level":"info","event":"--------------------------------------------------","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:12:42.466122","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-16T22:12:42.521837Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:12:42.522586Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:12:42.523095Z","level":"info","event":"Task operator:<Task(PythonOperator): onet_load>","chan":"stdout","logger":"task"}
