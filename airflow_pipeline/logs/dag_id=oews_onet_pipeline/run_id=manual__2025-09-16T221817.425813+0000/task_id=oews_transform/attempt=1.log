@@ -1,0 +1,11 @@
+{"timestamp":"2025-09-16T22:19:12.258491","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-16T22:19:12.259096","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/oews_onet_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-16T22:19:12.478194Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:19:12.479096Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:19:12.479718Z","level":"info","event":"Current task name:oews_transform","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:19:12.480140Z","level":"info","event":"Dag name:oews_onet_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:19:12.573343","level":"warning","event":"/opt/airflow/pipeline/load_data.py:138: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.\n  self.df = self.df.applymap(self.clean_data)\n","logger":"py.warnings"}
+{"timestamp":"2025-09-16T22:19:12.687165","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-16T22:19:12.709988Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:19:12.710634Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-16T22:19:12.711286Z","level":"info","event":"Task operator:<Task(PythonOperator): oews_transform>","chan":"stdout","logger":"task"}

@@ -1,0 +1,12 @@
+{"timestamp":"2025-09-17T12:44:54.972867","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-17T12:44:54.977326","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/oews_onet_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-17T12:44:55.361195Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-17T12:44:55.362156Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-17T12:44:55.362627Z","level":"info","event":"Current task name:oews_extract","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-17T12:44:55.363197Z","level":"info","event":"Dag name:oews_onet_pipeline","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-17T12:45:27.815580Z","level":"info","event":"Saved page source (12439109 chars)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-17T12:45:35.940350Z","level":"info","event":"Target table found.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-17T12:45:36.212127","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-17T12:45:36.236948Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-17T12:45:36.237404Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-17T12:45:36.237874Z","level":"info","event":"Task operator:<Task(PythonOperator): oews_extract>","chan":"stdout","logger":"task"}
