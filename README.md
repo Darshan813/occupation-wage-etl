@@ -63,10 +63,6 @@ Outputs are written under `airflow_pipeline/data/` in date-stamped folders:
 - `onet_skills_raw/YYYY-MM-DD/`
 - `onet_skills_cleaned/YYYY-MM-DD/`
 
-```
-
-```
-
 ## Important files
 - `airflow_pipeline/dags/oews_onet_dag.py` — DAG definition and task orchestration
 - `airflow_pipeline/pipeline/load_data.py` — Core ETL steps (read, clean, transform, write)
