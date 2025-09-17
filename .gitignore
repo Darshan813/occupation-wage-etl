@@ -1,0 +1,8 @@
+# Ignore everything at repo root
+/*
+
+# Keep the .gitignore itself
+!.gitignore
+
+# Allow the entire airflow_pipeline folder (all levels)
+!airflow_pipeline/**
