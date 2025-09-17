@@ -47,15 +47,13 @@ Defaults (as commonly used):
 
 # Start Airflow
 docker compose up -d
-```
 
 Then open the Airflow UI (check the port in your `airflow_pipeline/docker-compose.yaml`; typical is http://localhost:8080). Log in with the credentials configured in your .env (or defaults in the compose file).
 
-### 4) Enable and run the DAG
+Enable and run the DAG
 - In Airflow UI, enable `oews_onet_pipeline` (or the DAG name shown in `dags/oews_onet_dag.py`).
 - Trigger a manual run, or let the schedule run it (if a schedule is defined).
 - Check task logs under `airflow_pipeline/logs/` or from the UI for progress.
-```
 
 Outputs are written under `airflow_pipeline/data/` in date-stamped folders:
 - `oews_raw/YYYY-MM-DD/`
